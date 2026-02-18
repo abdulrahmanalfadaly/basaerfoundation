@@ -1,7 +1,7 @@
 
 // font url
 
-$font-url: 'https://fonts.googleapis.com/css2?family=Marcellus&family=Rufina:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&family=Manrope:wght@200..800&display=swap';
+$font-url: 'https://fonts.googleapis.com/css2?family=Marcellus&family=Rufina:wght@400;700&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@300;400;500;600;700;800&family=Manrope:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap';
 
 @font-face {
     font-family: 'Tropiline_Bold';
@@ -40,6 +40,7 @@ $font-family: (
         'secondary': "'Crimson Pro', serif",
         'manrope': "'Manrope', sans-serif",
         'rufina': "'Rufina', serif",
+        'inter': "'Inter', sans-serif",
         'marcellus': "'Marcellus', serif",
         'tropiline-bold': "'Tropiline_Bold', sans-serif",
         'tropiline': "'Tropiline_Regular', sans-serif",

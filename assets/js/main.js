@@ -436,6 +436,35 @@
 	});
 
 
+	// home one
+	var swiper = new Swiper(".tp-brand-active", {
+		slidesPerView: 6,
+		spaceBetween: 30,
+		freeMode: false,
+		loop: true,
+		autoplay: {
+			delay: 3500,
+		},
+		breakpoints: {
+			'1200': {
+				slidesPerView: 6,
+			},
+			'992': {
+				slidesPerView: 5,
+			},
+			'768': {
+				slidesPerView: 4,
+			},
+			'576': {
+				slidesPerView: 3,
+			},
+			'0': {
+				slidesPerView: 2,
+			},
+		},
+	});
+
+
 	// campus life 
 	var swiper = new Swiper(".tp-campus-life-active", {
 		slidesPerView: 'auto',
@@ -536,7 +565,6 @@
 		spaceBetween: 15,
 		centeredSlides: true,
 		allowTouchMove: false,
-		slidesPerView: 5,
 		speed: 6000,
 		autoplay: {
 		  delay: 1,
@@ -561,6 +589,22 @@
 			'0': {
 				slidesPerView: 1,
 			},
+		},
+	});
+
+
+	// text slider
+	let tp_text_slide = new Swiper(".tp-text-slider-active", {
+	loop: true,
+	freemode: true,
+	spaceBetween: 10,
+	slidesPerView: 'auto',
+	centeredSlides: true,
+	allowTouchMove: false,
+	speed: 7000,
+		autoplay: {
+			delay: 1,
+			disableOnInteraction: true,
 		},
 	});
 

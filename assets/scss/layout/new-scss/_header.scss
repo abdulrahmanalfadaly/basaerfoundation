@@ -275,20 +275,241 @@
             color: var(--tp-theme-11);
         }
     }
+
+    &-11{
+        &-top{
+            padding: 8px 35px 6px;
+            border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+            &-left{
+                & .tp-header-info{
+                    &-item {
+                        & span{
+                            color: #1E1E2F;
+                            & a{
+                                &:hover{
+                                    color: #FE4D01;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &-right{
+                & .tp-header-info{
+                    &-item {
+                        margin-right: 15px;
+                        padding-right: 15px;
+                        border-right: 1px solid rgba(30, 30, 47, 0.10);
+                        @media #{$xs} {
+                            margin-right: 0;
+                            padding-right: 0;
+                            border: none;
+                        }
+                        @media #{$sm} {
+                            margin-right: 15px;
+                            padding-right: 15px;
+                            border-right: 1px solid rgba(30, 30, 47, 0.10);
+                        }
+                        & span{
+                            color: #1E1E2F;
+                            font-family: var(--tp-ff-manrope);
+                        }
+                    }
+                }
+            }
+        }
+        &-info{
+            & span{
+                color: #1E1E2F;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 1;
+                display: inline-block;
+                letter-spacing: -0.28px;
+                transform: translateY(-3px);
+                font-family: var(--tp-ff-manrope);
+            }
+        }
+        &-offer{
+            & h4{
+                color: #1E1E2F;
+                font-size: 14px;
+                font-weight: 500;
+                margin: 0;
+                letter-spacing: -0.28px;
+                font-family: var(--tp-ff-manrope);
+                & span{
+                    font-size: 12px;
+                    font-weight: 600;
+                    padding: 4px 17px;
+                    margin-left: 5px;
+                    border-radius: 50px;
+                    background: #FE4D01;
+                    display: inline-block;
+                    color: var(--tp-common-white);
+                    font-family: var(--tp-ff-manrope);
+                }
+            }
+        }
+        &-menu{
+            & .main-menu {
+                & > nav{
+                    & > ul {
+                        & > li {
+                            margin: 0px 14px;
+                            & > a{
+                                color: #1E1E2F;
+                                padding: 27px 0 25px 0;
+                            }
+                            &.has-dropdown {
+                                & > a{
+                                    &::after{
+                                        color: #1E1E2F;
+                                    }
+                                }
+                            }
+                            & .tp-submenu{
+                                & li{
+                                    &:hover {
+                                        & > a {
+                                            padding-left: 35px;
+                                            color: #FE4D01;
+                                            &::before{
+                                                background-color: #FE4D01;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            & .tp-megamenu{
+                &-small-content {
+                    & .tp-megamenu-list {
+                        & a{
+                            &:hover{
+                                color: #FE4D01;
+                            }
+                            &::before{
+                                background-color: #FE4D01;
+                            }
+                        }
+                    }
+                }
+                &-fullwidth-list{
+                    & ul{
+                        & li{
+                            & a{
+                                &:hover{
+                                    color: #FE4D01;
+                                }
+                                &::before{
+                                    background-color: #FE4D01;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-content{
+            & .tp-header{
+                &-2{
+                    &-cart {
+                        & button {
+                            & i{
+                                background-color: #FE4D01;
+                            }
+                        }
+                    }
+                }
+                &-6{
+                    &-login{
+                        & button{
+                            &:hover{
+                                & span{
+                                    color: #FE4D01;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            & .tp-btn-inner{
+                font-size: 16px;
+                color: #1E1E2F;
+                border-radius: 50px;
+                box-shadow: none;
+                border: 1px solid #FE4D01;
+                background-color: transparent;
+                &:hover{
+                    background-color: #FE4D01;
+                    color: var(--tp-common-white);
+                }
+            }
+        }
+    }
+    &-13{
+        &-wrap{
+            & .main-menu {
+                & > nav{
+                    & > ul {
+                        & > li {
+                            margin: 0px 17px;
+                            & > a{
+                                color: #1E1E2F;
+                                padding: 27px 0 25px 0;
+                                &::after{
+                                    content: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            &.tp-header-2{
+                box-shadow: none;
+                background: transparent;
+            }
+        }
+        &-btn{
+            & .tp-btn-border{
+                font-weight: 500;
+                padding: 6px 30px;
+                border-radius: 100px;
+                border-color: transparent;
+                background-color: #4D4ADF;
+                &:hover{
+                    border-color: #4D4ADF;
+                    background-color: transparent;
+                    color: var(--tp-common-black);
+                }
+                & span{
+                    margin-right: 5px;
+                    display: inline-block;
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
 }
 
 .tp-megamenu-home-title {
     & .new{
         font-size: 12px;
         font-weight: 600;
-        border-radius: 100px;
-        padding: 2px 8px 2px;
         margin-left: 3px;
-        color: var(--tp-common-white);
+        border-radius: 100px;
+        padding: 2px 9px 3px;
         background: #E70C46;
-        box-shadow: 0px 4px 8px 0px rgba(150, 5, 40, 0.25);
         display: inline-block;
         transform: translateY(-1px);
+        color: var(--tp-common-white);
+        box-shadow: 0px 4px 8px 0px rgba(150, 5, 40, 0.25);
     }
 }
 .tp-megamenu-home-item {
@@ -306,6 +527,13 @@
                 backdrop-filter: blur(6px);
                 background-color: rgba(0, 0, 0, 0.2);
                 border-radius: 6px;
+            }
+        }
+    }
+    &:hover{
+        & .tp-megamenu-home-title{
+            & .orange-deep{
+                color: #FE4D01;
             }
         }
     }
