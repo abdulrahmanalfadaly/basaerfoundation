@@ -13359,7 +13359,7 @@ a.social-yout {
 }
 
 .tp-about-4-head {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 300;
   line-height: 1.17;
   margin-bottom: 45px;
@@ -13367,7 +13367,7 @@ a.social-yout {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 767px) {
   .tp-about-4-head {
-    font-size: 42px;
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 767px) {

@@ -1,0 +1,82 @@
+<svg viewBox="0 0 357 523" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="overlayBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7f2e6"/>
+      <stop offset="100%" stop-color="#e8dec5"/>
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="357" height="523" fill="url(#overlayBg)" rx="14"/>
+
+  <!-- Decorative geometric border -->
+  <rect x="20" y="20" width="317" height="483" fill="none" stroke="#C29A4D" stroke-width="1" opacity="0.4" rx="8"/>
+  <rect x="30" y="30" width="297" height="463" fill="none" stroke="#C29A4D" stroke-width="0.5" opacity="0.3" rx="6"/>
+
+  <!-- Stack of books base -->
+  <g transform="translate(178,330)" filter="url(#shadow2)">
+    <!-- Book 3 (bottom) -->
+    <rect x="-130" y="60" width="260" height="35" fill="#2d4933" rx="3"/>
+    <rect x="-115" y="73" width="80" height="2" fill="#fff" opacity="0.5"/>
+    <rect x="-115" y="82" width="55" height="2" fill="#fff" opacity="0.5"/>
+    <!-- Book 2 (middle) -->
+    <rect x="-115" y="25" width="240" height="35" fill="#C29A4D" rx="3"/>
+    <rect x="-100" y="38" width="70" height="2" fill="#fff" opacity="0.6"/>
+    <rect x="-100" y="47" width="50" height="2" fill="#fff" opacity="0.6"/>
+    <!-- Book 1 (top) -->
+    <rect x="-105" y="-10" width="220" height="35" fill="#B1040E" rx="3"/>
+    <rect x="-90" y="3" width="80" height="2" fill="#fff" opacity="0.6"/>
+    <rect x="-90" y="12" width="60" height="2" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- Top floating "scattered" page with corruption -->
+  <g transform="translate(178,160) rotate(-8)" filter="url(#shadow2)">
+    <rect x="-90" y="-110" width="180" height="220" fill="#fff" stroke="#d4c89a" stroke-width="1" rx="4"/>
+    <!-- Page header line -->
+    <line x1="-70" y1="-90" x2="70" y2="-90" stroke="#2d4933" stroke-width="2.5" opacity="0.7"/>
+    <!-- Body text lines, some struck -->
+    <line x1="-70" y1="-65" x2="60" y2="-65" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-70" y1="-48" x2="50" y2="-48" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <g>
+      <line x1="-70" y1="-31" x2="60" y2="-31" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+      <line x1="-72" y1="-29" x2="62" y2="-33" stroke="#B1040E" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <g>
+      <line x1="-70" y1="-14" x2="55" y2="-14" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+      <line x1="-72" y1="-12" x2="57" y2="-16" stroke="#B1040E" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <line x1="-70" y1="3" x2="60" y2="3" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <g>
+      <line x1="-70" y1="20" x2="50" y2="20" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+      <line x1="-72" y1="22" x2="52" y2="18" stroke="#B1040E" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <line x1="-70" y1="37" x2="55" y2="37" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-70" y1="54" x2="60" y2="54" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-70" y1="71" x2="45" y2="71" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-70" y1="88" x2="55" y2="88" stroke="#2d4933" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- "100M Views" badge -->
+  <g transform="translate(290,90)">
+    <circle r="42" fill="#2d4933" filter="url(#shadow2)"/>
+    <text x="0" y="-4" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">100M</text>
+    <text x="0" y="14" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#C29A4D" text-anchor="middle">VIEWS</text>
+  </g>
+
+  <!-- Red banner -->
+  <g transform="translate(178,468)">
+    <rect x="-120" y="-22" width="240" height="44" rx="22" fill="#B1040E" filter="url(#shadow2)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle">تكفير المسلمين</text>
+  </g>
+
+  <!-- Decorative star ornaments -->
+  <g transform="translate(60,80)" opacity="0.4">
+    <path d="M 0,-8 L 2,-2 L 8,-2 L 3,2 L 5,8 L 0,4 L -5,8 L -3,2 L -8,-2 L -2,-2 Z" fill="#C29A4D"/>
+  </g>
+  <g transform="translate(70,440)" opacity="0.3">
+    <path d="M 0,-6 L 1.5,-1.5 L 6,-1.5 L 2,1.5 L 3.5,6 L 0,3 L -3.5,6 L -2,1.5 L -6,-1.5 L -1.5,-1.5 Z" fill="#C29A4D"/>
+  </g>
+</svg>

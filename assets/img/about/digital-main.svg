@@ -1,0 +1,108 @@
+<svg viewBox="0 0 316 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="digitalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2e1f"/>
+      <stop offset="100%" stop-color="#2d4933"/>
+    </linearGradient>
+    <pattern id="gridPattern" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#C29A4D" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <filter id="phoneShadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glowRed">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="316" height="500" fill="url(#digitalBg)" rx="14"/>
+  <rect width="316" height="500" fill="url(#gridPattern)" rx="14"/>
+
+  <!-- Floating tech indicators (glitch lines) -->
+  <line x1="20" y1="60" x2="100" y2="60" stroke="#B1040E" stroke-width="2" opacity="0.5"/>
+  <line x1="220" y1="80" x2="290" y2="80" stroke="#C29A4D" stroke-width="2" opacity="0.5"/>
+  <line x1="40" y1="450" x2="120" y2="450" stroke="#C29A4D" stroke-width="2" opacity="0.4"/>
+  <line x1="210" y1="430" x2="290" y2="430" stroke="#B1040E" stroke-width="2" opacity="0.4"/>
+
+  <!-- Smartphone -->
+  <g transform="translate(158,250)" filter="url(#phoneShadow)">
+    <!-- Phone body -->
+    <rect x="-65" y="-130" width="130" height="240" rx="20" fill="#1a1a1a"/>
+    <rect x="-65" y="-130" width="130" height="240" rx="20" fill="none" stroke="#444" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="-58" y="-118" width="116" height="216" rx="10" fill="url(#phoneScreen)"/>
+    <!-- Camera notch -->
+    <rect x="-12" y="-126" width="24" height="6" rx="3" fill="#000"/>
+
+    <!-- Video player UI on screen -->
+    <!-- Top bar with LIVE indicator -->
+    <g transform="translate(0,-105)">
+      <rect x="-50" y="0" width="100" height="20" fill="#000" opacity="0.7" rx="3"/>
+      <circle cx="-40" cy="10" r="4" fill="#B1040E">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="-30" y="14" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#fff">LIVE</text>
+      <text x="38" y="14" font-family="Arial, sans-serif" font-size="9" font-weight="600" fill="#C29A4D" text-anchor="end">24H</text>
+    </g>
+
+    <!-- Video frame placeholder showing "atheist content" with mock visualization -->
+    <g transform="translate(0,-50)">
+      <!-- Background of video -->
+      <rect x="-50" y="-25" width="100" height="60" fill="#2d4933" opacity="0.3" rx="4"/>
+      <!-- Silhouette of figure speaking -->
+      <circle cx="0" cy="0" r="15" fill="#3a3a3a"/>
+      <ellipse cx="0" cy="22" rx="22" ry="14" fill="#3a3a3a"/>
+      <!-- Microphone indicator -->
+      <circle cx="20" cy="-12" r="5" fill="#B1040E"/>
+      <line x1="20" y1="-7" x2="20" y2="-2" stroke="#B1040E" stroke-width="2"/>
+    </g>
+
+    <!-- Subtitle bar with crossed out text -->
+    <g transform="translate(0,15)">
+      <rect x="-50" y="0" width="100" height="3" fill="#fff" opacity="0.5" rx="1"/>
+      <rect x="-50" y="8" width="80" height="3" fill="#fff" opacity="0.5" rx="1"/>
+      <!-- Red strike -->
+      <line x1="-52" y1="11" x2="32" y2="7" stroke="#B1040E" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- Engagement bar -->
+    <g transform="translate(0,45)">
+      <!-- Heart -->
+      <path d="M -34,3 C -38,-2 -32,-7 -30,-4 C -28,-7 -22,-2 -26,3 L -30,7 Z" fill="#B1040E"/>
+      <text x="-18" y="6" font-family="Arial, sans-serif" font-size="9" fill="#fff" font-weight="600">12M</text>
+      <!-- Eye/views -->
+      <circle cx="6" cy="2" r="2.5" fill="none" stroke="#fff" stroke-width="1.2"/>
+      <ellipse cx="6" cy="2" rx="6" ry="3" fill="none" stroke="#fff" stroke-width="1.2"/>
+      <text x="18" y="6" font-family="Arial, sans-serif" font-size="9" fill="#fff" font-weight="600">100M+</text>
+    </g>
+
+    <!-- Phone bottom indicator -->
+    <rect x="-25" y="85" width="50" height="3" rx="1.5" fill="#666"/>
+  </g>
+
+  <!-- Warning badge - corner -->
+  <g transform="translate(258,90)">
+    <circle r="32" fill="#B1040E" filter="url(#phoneShadow)"/>
+    <path d="M 0,-15 L -13,12 L 13,12 Z" fill="#fff"/>
+    <line x1="0" y1="-6" x2="0" y2="5" stroke="#B1040E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="9" r="1.5" fill="#B1040E"/>
+  </g>
+
+  <!-- "Gen Z" badge -->
+  <g transform="translate(60,440)">
+    <rect x="-40" y="-18" width="80" height="36" rx="18" fill="#C29A4D"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#fff" text-anchor="middle">Gen Z</text>
+  </g>
+
+  <!-- Floating digital particles -->
+  <circle cx="40" cy="200" r="2" fill="#C29A4D" opacity="0.6"/>
+  <circle cx="280" cy="180" r="2" fill="#B1040E" opacity="0.6"/>
+  <circle cx="290" cy="310" r="2" fill="#C29A4D" opacity="0.5"/>
+  <circle cx="30" cy="320" r="2" fill="#B1040E" opacity="0.5"/>
+  <circle cx="35" cy="380" r="1.5" fill="#C29A4D" opacity="0.6"/>
+</svg>

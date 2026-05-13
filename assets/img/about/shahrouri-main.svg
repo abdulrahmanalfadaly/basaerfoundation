@@ -1,0 +1,81 @@
+<svg viewBox="0 0 316 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a2e1f"/>
+      <stop offset="100%" stop-color="#2d4933"/>
+    </linearGradient>
+    <pattern id="islamicPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 20,5 L 35,20 L 20,35 L 5,20 Z" fill="none" stroke="#C29A4D" stroke-width="0.5" opacity="0.15"/>
+      <circle cx="20" cy="20" r="2" fill="#C29A4D" opacity="0.15"/>
+    </pattern>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="316" height="500" fill="url(#bgGrad)" rx="14"/>
+  <rect width="316" height="500" fill="url(#islamicPattern)" rx="14"/>
+
+  <!-- Decorative arch/mihrab silhouette -->
+  <path d="M 158,40 Q 70,40 70,150 L 70,330 L 246,330 L 246,150 Q 246,40 158,40 Z"
+        fill="none" stroke="#C29A4D" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Open book centerpiece -->
+  <g transform="translate(158,210)" filter="url(#shadow)">
+    <!-- Book pages background -->
+    <path d="M -110,-10 Q -110,-20 -100,-20 L -10,-20 Q 0,-20 0,-10 L 0,140 Q 0,150 -10,150 L -100,150 Q -110,150 -110,140 Z"
+          fill="#f5f0e6"/>
+    <path d="M 110,-10 Q 110,-20 100,-20 L 10,-20 Q 0,-20 0,-10 L 0,140 Q 0,150 10,150 L 100,150 Q 110,150 110,140 Z"
+          fill="#f5f0e6"/>
+    <!-- Page edge shadow -->
+    <line x1="0" y1="-20" x2="0" y2="150" stroke="#8a7a5a" stroke-width="1.5" opacity="0.4"/>
+    <!-- Text lines left page -->
+    <line x1="-95" y1="5" x2="-15" y2="5" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="20" x2="-25" y2="20" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="35" x2="-15" y2="35" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="50" x2="-30" y2="50" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="65" x2="-15" y2="65" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="80" x2="-25" y2="80" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="95" x2="-15" y2="95" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="110" x2="-30" y2="110" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="-95" y1="125" x2="-15" y2="125" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <!-- Right page lines (some crossed out in red) -->
+    <line x1="15" y1="5" x2="95" y2="5" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="20" x2="85" y2="20" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <g>
+      <line x1="15" y1="35" x2="95" y2="35" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+      <line x1="13" y1="37" x2="97" y2="33" stroke="#B1040E" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <line x1="15" y1="50" x2="85" y2="50" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+      <line x1="13" y1="52" x2="87" y2="48" stroke="#B1040E" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <line x1="15" y1="65" x2="90" y2="65" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+      <line x1="13" y1="67" x2="92" y2="63" stroke="#B1040E" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <line x1="15" y1="80" x2="85" y2="80" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="95" x2="95" y2="95" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="110" x2="85" y2="110" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+    <line x1="15" y1="125" x2="80" y2="125" stroke="#2d4933" stroke-width="2" opacity="0.7"/>
+  </g>
+
+  <!-- Warning badge in top right -->
+  <g transform="translate(240,80)">
+    <circle r="34" fill="#B1040E" filter="url(#shadow)"/>
+    <path d="M -14,-14 L 14,14 M 14,-14 L -14,14" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom label -->
+  <g transform="translate(158,410)">
+    <rect x="-110" y="-22" width="220" height="44" rx="22" fill="#C29A4D" filter="url(#shadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">إنكار السنة</text>
+  </g>
+
+  <!-- Decorative dots -->
+  <circle cx="50" cy="60" r="3" fill="#C29A4D" opacity="0.6"/>
+  <circle cx="270" cy="450" r="3" fill="#C29A4D" opacity="0.6"/>
+  <circle cx="60" cy="440" r="2" fill="#C29A4D" opacity="0.4"/>
+  <circle cx="280" cy="60" r="2" fill="#C29A4D" opacity="0.4"/>
+</svg>
