@@ -1,0 +1,427 @@
+================================================================
+UNUSED IMAGES REPORT — Basaer Foundation site
+Generated: 2026-05-25
+================================================================
+
+Scanned pages: index, about, challenges, programs, media,
+               observatory, partnerships
+
+Total image files in assets/img:  936
+Referenced by site pages:          23
+UNUSED:                            913 files (40.7 MB)
+
+================================================================
+PART 1 — FOLDERS YOU CAN DELETE ENTIRELY
+(nothing in these folders is used anywhere on the site)
+================================================================
+
+  DELETE  assets/img/banner/                    96K   (4 files)
+  DELETE  assets/img/bg/                       1.1M   (18 files)
+  DELETE  assets/img/brand/                    116K   (15 files)
+  DELETE  assets/img/campus/                   136K   (22 files)
+  DELETE  assets/img/category/                  48K   (12 files)
+  DELETE  assets/img/course/                   432K   (63 files)
+  DELETE  assets/img/dashboard/                438K   (69 files)
+  DELETE  assets/img/error/                     28K   (1 files)
+  DELETE  assets/img/event/                    280K   (36 files)
+  DELETE  assets/img/flag/                     4.0K   (1 files)
+  DELETE  assets/img/footer/                    32K   (3 files)
+  DELETE  assets/img/gallary/                   16K   (4 files)
+  DELETE  assets/img/history/                   48K   (8 files)
+  DELETE  assets/img/instagram/                344K   (12 files)
+  DELETE  assets/img/instructor/               100K   (3 files)
+  DELETE  assets/img/leadership/                48K   (12 files)
+  DELETE  assets/img/live/                     156K   (11 files)
+  DELETE  assets/img/login/                    152K   (4 files)
+  DELETE  assets/img/our-mission/              1.3M   (29 files)
+  DELETE  assets/img/program/                  408K   (13 files)
+  DELETE  assets/img/shop/                     580K   (43 files)
+  DELETE  assets/img/slider/                    60K   (6 files)
+  DELETE  assets/img/teacher/                   20K   (12 files)
+  DELETE  assets/img/team/                      56K   (12 files)
+  DELETE  assets/img/testimonial/               60K   (17 files)
+  DELETE  assets/img/unlerline/                   0   (13 files)
+
+================================================================
+PART 2 — MIXED FOLDERS
+(folder contains BOTH used and unused — keep folder, delete only listed files)
+================================================================
+
+
+  >>> assets/img/about/  (6 used, 13 unused)
+      USED (KEEP):
+         - assets/img/about/about-shape-1.jpg
+         - assets/img/about/about-shape-2.jpg
+         - assets/img/about/about-thumb-1.2.png
+         - assets/img/about/about-thumb-1.3.png
+         - assets/img/about/about-thumb-2.2.png
+         - assets/img/about/about-thumb-2.png
+      UNUSED (delete these):
+         - assets/img/about/4/about-thumb-1.jpg
+         - assets/img/about/4/about-thumb-2.jpg
+         - assets/img/about/4/about-thumb-3.jpg
+         - assets/img/about/4/about-thumb-4.jpg
+         - assets/img/about/about-thumb-1.jpg
+         - assets/img/about/about-thumb-1.png
+         - assets/img/about/about-thumb-2.jpg
+         - assets/img/about/about/about-bg.png
+         - assets/img/about/about/about-thumb-1.jpg
+         - assets/img/about/digital-main.svg
+         - assets/img/about/digital-overlay.svg
+         - assets/img/about/shahrouri-main.svg
+         - assets/img/about/shahrouri-overlay.svg
+
+  >>> assets/img/blog/  (1 used, 43 unused)
+      USED (KEEP):
+         - assets/img/blog/blog-thumb-1.png
+      UNUSED (delete these):
+         - assets/img/blog/blog-list/blog-list-1.jpg
+         - assets/img/blog/blog-list/blog-list-2.jpg
+         - assets/img/blog/blog-list/blog-list-3.jpg
+         - assets/img/blog/blog-list/blog-list-4.jpg
+         - assets/img/blog/blog-standard/blog-standard-1.jpg
+         - assets/img/blog/blog-standard/blog-standard-2.jpg
+         - assets/img/blog/blog-standard/blog-standard-3.jpg
+         - assets/img/blog/blog-standard/blog-standard-4.jpg
+         - assets/img/blog/blog-standard/blog-standard-shape-2.png
+         - assets/img/blog/blog-standard/blog-standard-shape.png
+         - assets/img/blog/blog-standard/link.svg
+         - assets/img/blog/blog-standard/quote.svg
+         - assets/img/blog/blog-standard/share.svg
+         - assets/img/blog/blog-stories/blog-stories-banner.jpg
+         - assets/img/blog/blog-stories/blog-stories-bg.png
+         - assets/img/blog/blog-stories/blog-stories-search.svg
+         - assets/img/blog/blog-stories/blog-stories-thumb-1.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-2.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-3.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-4.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-5.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-6.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-7.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-8.jpg
+         - assets/img/blog/blog-stories/blog-stories-thumb-9.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-1.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-2.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-3.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-4.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-5.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-6.jpg
+         - assets/img/blog/blog-stories/blog-stories-user-7.jpg
+         - assets/img/blog/blog-stories/blog-stories-user.jpg
+         - assets/img/blog/blog-thumb-1.2.png
+         - assets/img/blog/blog-thumb-1.jpg
+         - assets/img/blog/blog-thumb-2.jpg
+         - assets/img/blog/deatils/blog-details-bg.jpg
+         - assets/img/blog/deatils/blog-details-thumb-1.jpg
+         - assets/img/blog/deatils/blog-details-thumb-2.jpg
+         - assets/img/blog/deatils/blog-full-width-bg.jpg
+         - assets/img/blog/deatils/review.png
+         - assets/img/blog/deatils/user-2.png
+         - assets/img/blog/deatils/user.png
+
+  >>> assets/img/breadcrumb/  (1 used, 10 unused)
+      USED (KEEP):
+         - assets/img/breadcrumb/campus-breadcrumb-2.png
+      UNUSED (delete these):
+         - assets/img/breadcrumb/about-breadcrumb.jpg
+         - assets/img/breadcrumb/breadcrumb-bg-2.jpg
+         - assets/img/breadcrumb/breadcrumb-bg-3.jpg
+         - assets/img/breadcrumb/breadcrumb-bg.jpg
+         - assets/img/breadcrumb/campus-breadcrumb-3.png
+         - assets/img/breadcrumb/campus-breadcrumb-4.png
+         - assets/img/breadcrumb/campus-breadcrumb-5.png
+         - assets/img/breadcrumb/campus-breadcrumb-6.png
+         - assets/img/breadcrumb/campus-breadcrumb.jpg
+         - assets/img/breadcrumb/campus-breadcrumb.png
+
+  >>> assets/img/cta/  (1 used, 8 unused)
+      USED (KEEP):
+         - assets/img/cta/menu-cta-shape.png
+      UNUSED (delete these):
+         - assets/img/cta/cta-3-shape-1.png
+         - assets/img/cta/cta-3-shape-2.png
+         - assets/img/cta/cta-3-shape-3.png
+         - assets/img/cta/cta-7-bg.jpg
+         - assets/img/cta/cta-bg-1.jpg
+         - assets/img/cta/cta-bg-2.jpg
+         - assets/img/cta/cta-logo-1.png
+         - assets/img/cta/cta-shape-1.png
+
+  >>> assets/img/hero/  (3 used, 141 unused)
+      USED (KEEP):
+         - assets/img/hero/home-11/menu/home-11.png
+         - assets/img/hero/home-11/menu/home-12.png
+         - assets/img/hero/home-11/menu/home-13.png
+      UNUSED (delete these):
+         - assets/img/hero/hero-2-shape-1.png
+         - assets/img/hero/hero-2-shape-2.png
+         - assets/img/hero/hero-2-shape-3.png
+         - assets/img/hero/hero-2-shape-4.png
+         - assets/img/hero/hero-2-thumb-1.png
+         - assets/img/hero/hero-3/a-letter.png
+         - assets/img/hero/hero-3/apply-btn-shape.png
+         - assets/img/hero/hero-3/b-letter.png
+         - assets/img/hero/hero-3/banner-3-book.png
+         - assets/img/hero/hero-3/banner-3-shape-1.png
+         - assets/img/hero/hero-3/banner-3-shape-2.png
+         - assets/img/hero/hero-3/banner-3-shape-3.png
+         - assets/img/hero/hero-3/banner-3-thumb-1.png
+         - assets/img/hero/hero-3/c-letter.png
+         - assets/img/hero/hero-3/hero-3-heading-shape.png
+         - assets/img/hero/hero-4/hero-bg-1.jpg
+         - assets/img/hero/hero-6-shape-2.png
+         - assets/img/hero/hero-bg-1.jpg
+         - assets/img/hero/hero-bg-1.png
+         - assets/img/hero/hero-bg-2.jpg
+         - assets/img/hero/hero-bg-2.png
+         - assets/img/hero/hero-bg-3.jpg
+         - assets/img/hero/hero-bg-3.png
+         - assets/img/hero/home-11/about/about-shape-1.png
+         - assets/img/hero/home-11/about/about-shape-2.png
+         - assets/img/hero/home-11/about/about-shape-3.png
+         - assets/img/hero/home-11/about/about-thumb-1.jpg
+         - assets/img/hero/home-11/about/about-thumb-2.png
+         - assets/img/hero/home-11/about/about-thumb-3.png
+         - assets/img/hero/home-11/course/course-bg.png
+         - assets/img/hero/home-11/course/course-thumb-1.jpg
+         - assets/img/hero/home-11/course/course-thumb-2.jpg
+         - assets/img/hero/home-11/course/course-thumb-3.jpg
+         - assets/img/hero/home-11/course/course-thumb-4.jpg
+         - assets/img/hero/home-11/course/course-thumb-5.jpg
+         - assets/img/hero/home-11/course/course-thumb-6.jpg
+         - assets/img/hero/home-11/course/menu-svg.svg
+         - assets/img/hero/home-11/cta/cta-bg.jpg
+         - assets/img/hero/home-11/cta/cta-thumb.png
+         - assets/img/hero/home-11/flag/flag-1.png
+         - assets/img/hero/home-11/flag/flag-2.png
+         - assets/img/hero/home-11/flag/flag-3.png
+         - assets/img/hero/home-11/flag/flag-4.png
+         - assets/img/hero/home-11/flag/flag-5.png
+         - assets/img/hero/home-11/flag/flag-6.png
+         - assets/img/hero/home-11/flag/flag-7.png
+         - assets/img/hero/home-11/flag/flag-8.png
+         - assets/img/hero/home-11/flag/flag-9.png
+         - assets/img/hero/home-11/hero-11-bg.png
+         - assets/img/hero/home-11/menu/home-11.jpg
+         - assets/img/hero/home-11/menu/home-12.jpg
+         - assets/img/hero/home-11/menu/home-13.jpg
+         - assets/img/hero/home-11/shape-1.png
+         - assets/img/hero/home-11/shape-2.png
+         - assets/img/hero/home-11/shape-3.png
+         - assets/img/hero/home-11/shape-4.png
+         - assets/img/hero/home-11/shape-5.png
+         - assets/img/hero/home-11/world-shape.png
+         - assets/img/hero/home-11/world.png
+         - assets/img/hero/home-12/about/about-art.png
+         ... and 81 more
+
+  >>> assets/img/icon/  (1 used, 62 unused)
+      USED (KEEP):
+         - assets/img/icon/calling.svg
+      UNUSED (delete these):
+         - assets/img/icon/about/about-icon-1.svg
+         - assets/img/icon/about/about-icon-2.svg
+         - assets/img/icon/avater-icon.svg
+         - assets/img/icon/btn-arrow.svg
+         - assets/img/icon/cart-2.svg
+         - assets/img/icon/cart.svg
+         - assets/img/icon/category/cat-2-icon-1.svg
+         - assets/img/icon/category/cat-2-icon-2.svg
+         - assets/img/icon/category/cat-2-icon-3.svg
+         - assets/img/icon/category/cat-2-icon-4.svg
+         - assets/img/icon/category/cat-2-icon-5.svg
+         - assets/img/icon/category/cat-2-icon-6.svg
+         - assets/img/icon/category/cat-2-icon-7.svg
+         - assets/img/icon/category/cat-2-icon-8.svg
+         - assets/img/icon/clock-icon.svg
+         - assets/img/icon/counter/counter-4-icon-1.svg
+         - assets/img/icon/counter/counter-4-icon-2.svg
+         - assets/img/icon/counter/counter-4-icon-3.svg
+         - assets/img/icon/counter/counter-4-icon-4.svg
+         - assets/img/icon/cross-out.png
+         - assets/img/icon/funfact/funfact-2-icon-1.svg
+         - assets/img/icon/funfact/funfact-2-icon-2.svg
+         - assets/img/icon/funfact/funfact-2-icon-3.svg
+         - assets/img/icon/funfact/funfact-2-icon-4.svg
+         - assets/img/icon/header-category-icon.svg
+         - assets/img/icon/location.svg
+         - assets/img/icon/process/process-icon-1.svg
+         - assets/img/icon/process/process-icon-2.svg
+         - assets/img/icon/process/process-icon-3.svg
+         - assets/img/icon/program-tag-1.svg
+         - assets/img/icon/search.svg
+         - assets/img/icon/service-arrow.svg
+         - assets/img/icon/service/service-5-icon-1.svg
+         - assets/img/icon/service/service-5-icon-2.svg
+         - assets/img/icon/service/service-5-icon-3.svg
+         - assets/img/icon/service/service-icon-1.png
+         - assets/img/icon/service/service-icon-1.svg
+         - assets/img/icon/service/service-icon-2.png
+         - assets/img/icon/service/service-icon-2.svg
+         - assets/img/icon/service/service-icon-3.svg
+         - assets/img/icon/service/service-icon-4.svg
+         - assets/img/icon/service/services-3-hover-1.svg
+         - assets/img/icon/service/services-3-hover-2.svg
+         - assets/img/icon/service/services-3-hover-3.svg
+         - assets/img/icon/service/services-3-hover-4.svg
+         - assets/img/icon/service/services-3-icon-1.svg
+         - assets/img/icon/service/services-3-icon-2.svg
+         - assets/img/icon/service/services-3-icon-3.svg
+         - assets/img/icon/service/services-3-icon-4.svg
+         - assets/img/icon/social/fb.svg
+         - assets/img/icon/social/linkedin.svg
+         - assets/img/icon/social/twitter.svg
+         - assets/img/icon/social/youtube.svg
+         - assets/img/icon/subject/subject-icon-1.svg
+         - assets/img/icon/subject/subject-icon-2.svg
+         - assets/img/icon/subject/subject-icon-3.svg
+         - assets/img/icon/subject/subject-icon-4.svg
+         - assets/img/icon/subject/subject-icon-5.svg
+         - assets/img/icon/subject/subject-icon-6.svg
+         - assets/img/icon/tutor/tutor-icon-1.svg
+         ... and 2 more
+
+  >>> assets/img/logo/  (6 used, 4 unused)
+      USED (KEEP):
+         - assets/img/logo/favicon.png
+         - assets/img/logo/logo-black-1.png
+         - assets/img/logo/logo-black.png
+         - assets/img/logo/logo-red.png
+         - assets/img/logo/logo.png
+         - assets/img/logo/preloader/preloader-icon.png
+      UNUSED (delete these):
+         - assets/img/logo/logo-black-2.png
+         - assets/img/logo/logo-breadcrumb.png
+         - assets/img/logo/logo-white.png
+         - assets/img/logo/preloader/preloader-icon-1.png
+
+  >>> assets/img/menu/  (1 used, 17 unused)
+      USED (KEEP):
+         - assets/img/menu/home-2.png
+      UNUSED (delete these):
+         - assets/img/menu/coming-soon-1.jpg
+         - assets/img/menu/coming-soon-2.jpg
+         - assets/img/menu/home-1.jpg
+         - assets/img/menu/home-2.jpg
+         - assets/img/menu/home-3.jpg
+         - assets/img/menu/home-4.jpg
+         - assets/img/menu/home-5.jpg
+         - assets/img/menu/home-6.jpg
+         - assets/img/menu/home-7.jpg
+         - assets/img/menu/menu-shape-2.png
+         - assets/img/menu/menu-shape-3.png
+         - assets/img/menu/menu-shape.png
+         - assets/img/menu/offcanvas/offcanvas-1.jpg
+         - assets/img/menu/offcanvas/offcanvas-2.jpg
+         - assets/img/menu/offcanvas/offcanvas-3.jpg
+         - assets/img/menu/offcanvas/offcanvas-4.jpg
+         - assets/img/menu/shop.jpg
+
+  >>> assets/img/new-img/  (1 used, 141 unused)
+      USED (KEEP):
+         - assets/img/new-img/menu/yoga.png
+      UNUSED (delete these):
+         - assets/img/new-img/about/quran/shape.png
+         - assets/img/new-img/about/quran/thumb-2.jpg
+         - assets/img/new-img/about/quran/thumb.jpg
+         - assets/img/new-img/about/shape-2.png
+         - assets/img/new-img/about/shape.png
+         - assets/img/new-img/about/thumb.jpg
+         - assets/img/new-img/banner/books.png
+         - assets/img/new-img/banner/shape-2.png
+         - assets/img/new-img/banner/shape-3.png
+         - assets/img/new-img/banner/shape-4.png
+         - assets/img/new-img/banner/shape.png
+         - assets/img/new-img/blog/chef/avatar-2.png
+         - assets/img/new-img/blog/chef/avatar-3.png
+         - assets/img/new-img/blog/chef/avatar.png
+         - assets/img/new-img/blog/chef/shape.png
+         - assets/img/new-img/blog/chef/thumb-2.jpg
+         - assets/img/new-img/blog/chef/thumb-3.jpg
+         - assets/img/new-img/blog/chef/thumb.jpg
+         - assets/img/new-img/blog/quran/thumb-2.jpg
+         - assets/img/new-img/blog/quran/thumb-3.jpg
+         - assets/img/new-img/blog/quran/thumb.jpg
+         - assets/img/new-img/blog/yoga/thumb-2.jpg
+         - assets/img/new-img/blog/yoga/thumb-3.jpg
+         - assets/img/new-img/blog/yoga/thumb.jpg
+         - assets/img/new-img/brands/logo-2.png
+         - assets/img/new-img/brands/logo-3.png
+         - assets/img/new-img/brands/logo-4.png
+         - assets/img/new-img/brands/logo-5.png
+         - assets/img/new-img/brands/logo-6.png
+         - assets/img/new-img/brands/logo.png
+         - assets/img/new-img/brands/quran/logo (2).png
+         - assets/img/new-img/brands/quran/logo (3).png
+         - assets/img/new-img/brands/quran/logo-2.png
+         - assets/img/new-img/brands/quran/logo-3.png
+         - assets/img/new-img/brands/quran/logo-4.png
+         - assets/img/new-img/brands/quran/logo-5.png
+         - assets/img/new-img/brands/quran/logo-6.png
+         - assets/img/new-img/brands/quran/logo-7.png
+         - assets/img/new-img/brands/quran/logo.png
+         - assets/img/new-img/chose/shape.png
+         - assets/img/new-img/chose/thumb-2.jpg
+         - assets/img/new-img/chose/thumb.jpg
+         - assets/img/new-img/classes/thumb-2.jpg
+         - assets/img/new-img/classes/thumb-3.jpg
+         - assets/img/new-img/classes/thumb-4.jpg
+         - assets/img/new-img/classes/thumb.jpg
+         - assets/img/new-img/counter/bg.jpg
+         - assets/img/new-img/courses/quran/shape-2.png
+         - assets/img/new-img/courses/quran/shape.png
+         - assets/img/new-img/courses/quran/thumb-2.jpg
+         - assets/img/new-img/courses/quran/thumb-3.jpg
+         - assets/img/new-img/courses/quran/thumb.jpg
+         - assets/img/new-img/courses/shape-2.png
+         - assets/img/new-img/courses/shape-3.png
+         - assets/img/new-img/courses/shape.png
+         - assets/img/new-img/courses/thumb-2.jpg
+         - assets/img/new-img/courses/thumb-3.jpg
+         - assets/img/new-img/courses/thumb.jpg
+         - assets/img/new-img/cta/ghure.png
+         - assets/img/new-img/cta/shape.png
+         ... and 81 more
+
+  >>> assets/img/shape/  (2 used, 31 unused)
+      USED (KEEP):
+         - assets/img/shape/menu-shape-1.png
+         - assets/img/shape/menu-shape-2.png
+      UNUSED (delete these):
+         - assets/img/shape/bottom-line/line-2-category.svg
+         - assets/img/shape/bottom-line/line-3-course.svg
+         - assets/img/shape/bottom-line/line-4-hero-2.svg
+         - assets/img/shape/bottom-line/live-2-shape-1.svg
+         - assets/img/shape/bottom-line/marquee-line-1.svg
+         - assets/img/shape/bottom-line/slider-5-line-1.svg
+         - assets/img/shape/category-2-shape-1.png
+         - assets/img/shape/footer/fw-3-cartoon-4.png
+         - assets/img/shape/footer/fw-3-cartoon-5.png
+         - assets/img/shape/footer/fw-3-star-3.png
+         - assets/img/shape/footer/fw-3-tree-1.png
+         - assets/img/shape/footer/fw-3-tree-2.png
+         - assets/img/shape/process/process-3-baby-1.png
+         - assets/img/shape/process/process-3-baby-2.png
+         - assets/img/shape/process/process-3-football-1.png
+         - assets/img/shape/process/process-3-ground.png
+         - assets/img/shape/process/process-3-heart-1.png
+         - assets/img/shape/process/process-3-leaf-1.svg
+         - assets/img/shape/process/process-3-leaf-2.png
+         - assets/img/shape/process/process-3-leaf-3.png
+         - assets/img/shape/process/process-3-leaf-4.png
+         - assets/img/shape/process/process-3-leaf-5.png
+         - assets/img/shape/service/services-3-shape-1.png
+         - assets/img/shape/service/services-3-shape-2.png
+         - assets/img/shape/service/services-3-shape-3.png
+         - assets/img/shape/service/services-3-shape-4.png
+         - assets/img/shape/service/services-3-shape-5.png
+         - assets/img/shape/service/services-shape-1.png
+         - assets/img/shape/service/services-shape-2.png
+         - assets/img/shape/video-5-shape-1.png
+         - assets/img/shape/video-5-shape-2.png
+
+================================================================
+PART 3 — OTHER NON-IMAGE FILES IN assets/img/ TO CHECK
+================================================================
+
+  assets/img/history.pdf  (61321 bytes)
